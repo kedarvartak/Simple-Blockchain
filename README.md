@@ -1,31 +1,65 @@
-# React & Tailwind CSS Starter Pack
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+# Simple-Blockchain
+
+A layman implementation of a blockchain to understand concepts at a deeper level.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Flowchart](#flowchart)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+This project is a simple implementation of a blockchain in JavaScript. It is designed to help understand the core concepts of blockchain technology.
+
+## Features
+
+- Create blocks
+- Validate blockchain
+- Add transactions
+
+## Installation
+
+To install the project, clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/kedarvartak/Simple-Blockchain.git
+cd Simple-Blockchain
+npm install
+```
 
 ## Usage
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+After installation, you can run the project using:
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+```bash
+npm start
+```
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+## Flowchart
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+The following flowchart explains the flow of the app:
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+```mermaid
+graph TD
+    A[Start] --> B[Create Transaction]
+    B --> C[Add Transaction to Block]
+    C --> D[Validate Block]
+    D --> E[Add Block to Blockchain]
+    E --> F[Validate Blockchain]
+    F --> G[End]
+```
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or additions.
+
+## License
+
+This project is licensed under the MIT License.
+
